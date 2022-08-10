@@ -1,5 +1,5 @@
-Design Principle:
+### Design Principle:
 
-Program to an interface, not an implementation.
+- Program to an interface, not an implementation.
 
-Favor composition over inheritance.
+- Favor composition over inheritance.
