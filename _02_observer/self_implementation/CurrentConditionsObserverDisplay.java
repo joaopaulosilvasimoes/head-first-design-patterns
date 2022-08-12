@@ -6,13 +6,13 @@ public class CurrentConditionsObserverDisplay implements Observer, DisplayElemen
 
     private float humidity;
 
-    private Subject wheatherData;
+    private Subject weatherData;
 
     public CurrentConditionsObserverDisplay(Subject weatherData){
  
-        this.wheatherData = weatherData;
+        this.weatherData = weatherData;
 
-        this.wheatherData.registerObserver(this);
+        this.weatherData.registerObserver(this);
 
     }
 
@@ -26,6 +26,17 @@ public class CurrentConditionsObserverDisplay implements Observer, DisplayElemen
 
     }
 
+    // Another way, but needs to change code.
+    public void update(){
+
+        this.temperature = ((WeatherDataSubject) weatherData).getTemperature();
+
+        this.humidity = ((WeatherDataSubject) weatherData).getHumidity();
+
+        display();
+
+    }    
+
     public void display(){
 
         System.out.println("Current conditions: " + temperature + " F degrees and " + humidity + " % humidity");
@@ -34,7 +45,7 @@ public class CurrentConditionsObserverDisplay implements Observer, DisplayElemen
 
     public void removeMeFromSubject(){
 
-        this.wheatherData.removeObserver(this);
+        this.weatherData.removeObserver(this);
 
     }    
 

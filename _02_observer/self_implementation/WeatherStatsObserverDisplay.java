@@ -7,15 +7,15 @@ public class WeatherStatsObserverDisplay implements Observer, DisplayElement {
     
     private ArrayList<Float> temperatures;
 
-    private Subject wheatherData;
+    private Subject weatherData;
 
     public WeatherStatsObserverDisplay(Subject weatherData){
 
         this.temperatures = new ArrayList<Float>();
         
-        this.wheatherData = weatherData;
+        this.weatherData = weatherData;
 
-        this.wheatherData.registerObserver(this);
+        this.weatherData.registerObserver(this);
 
     }
 
@@ -50,7 +50,7 @@ public class WeatherStatsObserverDisplay implements Observer, DisplayElement {
 
     public void removeMeFromSubject(){
 
-        this.wheatherData.removeObserver(this);
+        this.weatherData.removeObserver(this);
 
     }
 
