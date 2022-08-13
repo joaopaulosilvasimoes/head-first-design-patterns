@@ -1,4 +1,4 @@
-### Design Principle: OBSERVER
+# Design Principle: OBSERVER
 
 Defines a one-to-may dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
 
