@@ -15,6 +15,7 @@ public class PizzaStore {
 
         Pizza pizza;
 
+        // Simple Factory.
         pizza = factory.createPizza(type);
 
         System.out.println("Ordering Pizza - " + pizza.name);
