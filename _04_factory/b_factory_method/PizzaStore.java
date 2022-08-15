@@ -8,8 +8,6 @@ public abstract class PizzaStore {
 
         pizza = createPizza(type);
 
-        System.out.println("Ordering Pizza - " + pizza.name);
-
         pizza.prepare();
         pizza.bake();
         pizza.cut();

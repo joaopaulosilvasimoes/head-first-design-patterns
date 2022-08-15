@@ -3,23 +3,26 @@ package _04_factory.b_factory_method;
 import _04_factory.b_factory_method.chicago.ChicagoStylePizzaStore;
 import _04_factory.b_factory_method.nyc.NYStylePizzaStore;
 
-public class PizzaStoreSandbox {
+public class PizzaStoreTestDrive {
 
     public static void main(String[] args){
 
         // NYC
         PizzaStore nyPizzaStore = new NYStylePizzaStore();
 
-        nyPizzaStore.orderPizza("cheese");
-
-        nyPizzaStore.orderPizza("clam");
-
         // CHICAGO
         PizzaStore chicagoPizzaStore = new ChicagoStylePizzaStore();
 
-        chicagoPizzaStore.orderPizza("cheese");
+        //
+        Pizza nyPizza = nyPizzaStore.orderPizza("cheese");
 
-        chicagoPizzaStore.orderPizza("clam");
+        System.out.println("Ethan ordered a " + nyPizza.getName() + "\n");
+
+
+        //
+        Pizza chicagoPizza = chicagoPizzaStore.orderPizza("cheese");
+
+        System.out.println("Joel ordered a " + chicagoPizza.getName() + "\n");
 
     }
     
