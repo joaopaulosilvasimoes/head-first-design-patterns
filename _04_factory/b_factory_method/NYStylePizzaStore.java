@@ -1,7 +1,9 @@
-package _04_factory.b_factory_method.nyc;
+package _04_factory.b_factory_method;
 
-import _04_factory.b_factory_method.Pizza;
-import _04_factory.b_factory_method.PizzaStore;
+import _04_factory.b_factory_method.nyc.NYStyleCheesePizza;
+import _04_factory.b_factory_method.nyc.NYStyleClamPizza;
+import _04_factory.b_factory_method.nyc.NYStylePepperoniPizza;
+import _04_factory.b_factory_method.nyc.NYStyleVeggiePizza;
 
 public class NYStylePizzaStore extends PizzaStore{
 

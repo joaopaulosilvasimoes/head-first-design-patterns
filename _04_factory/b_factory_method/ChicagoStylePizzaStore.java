@@ -1,7 +1,9 @@
-package _04_factory.b_factory_method.chicago;
+package _04_factory.b_factory_method;
 
-import _04_factory.b_factory_method.Pizza;
-import _04_factory.b_factory_method.PizzaStore;
+import _04_factory.b_factory_method.chicago.ChicagoStyleCheesePizza;
+import _04_factory.b_factory_method.chicago.ChicagoStyleClamPizza;
+import _04_factory.b_factory_method.chicago.ChicagoStylePepperoniPizza;
+import _04_factory.b_factory_method.chicago.ChicagoStyleVeggiePizza;
 
 public class ChicagoStylePizzaStore extends PizzaStore{
 

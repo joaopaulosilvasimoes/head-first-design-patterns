@@ -1,4 +1,6 @@
-package _04_factory.b_factory_method;
+package _04_factory.c_abstract_factory;
+
+import _04_factory.c_abstract_factory.pizza.Pizza;
 
 public class PizzaStoreTestDrive {
 
