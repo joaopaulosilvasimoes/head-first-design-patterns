@@ -1,6 +1,6 @@
 package _04_factory.b_factory_method;
 
-public class Pizza {
+public abstract class Pizza {
     
     public String name;
 
