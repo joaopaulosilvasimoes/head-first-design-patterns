@@ -11,3 +11,5 @@ ABSTRACT FACTORY: Provide an interface for creating families of related or depen
 Relies on object composition: Object creation is implemented in methods exposed in the factory interface.
 
 - Depend on abstractions. Do not depend on concrete classes.
+
+### The main difference between a "factory method" and an "abstract factory" is that the factory method is a method, and an abstract factory is an object.
