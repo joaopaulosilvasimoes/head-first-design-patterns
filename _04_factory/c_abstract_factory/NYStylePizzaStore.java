@@ -11,6 +11,7 @@ public class NYStylePizzaStore extends PizzaStore{
     public Pizza createPizza(String item) {
 
         Pizza pizza = null;
+        // Abstract Factory.
         PizzaIngredientFactory nyPizzaIngredientFactory = new NYPizzaIngredientFactory();
 
         if (item.equals("cheese")){
