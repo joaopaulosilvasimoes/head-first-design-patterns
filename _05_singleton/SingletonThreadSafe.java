@@ -2,7 +2,7 @@ package _05_singleton;
 
 public class SingletonThreadSafe {
 
-    private static  SingletonThreadSafe uniqueInstance;
+    private static SingletonThreadSafe uniqueInstance;
 
     private int count;
 
