@@ -1,6 +1,5 @@
 package _06_command.java_implementation;
 
-import java.text.MessageFormat;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
