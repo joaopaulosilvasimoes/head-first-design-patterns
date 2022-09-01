@@ -1,6 +1,5 @@
 package _07_1_adapter.java_implementation;
 
-import java.lang.System.Logger.Level;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Vector;
