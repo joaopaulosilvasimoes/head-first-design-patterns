@@ -1,4 +1,4 @@
-package _08_template_method;
+package _08_template_method.self_implementation;
 
 public class Tea extends CaffeineBeverage {
 
