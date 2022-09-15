@@ -47,6 +47,8 @@ public class CoffeeWithHook extends CaffeineBeverage{
 
         answer = scanner.nextLine();
 
+        scanner.close();
+
         return answer;
 
     }
