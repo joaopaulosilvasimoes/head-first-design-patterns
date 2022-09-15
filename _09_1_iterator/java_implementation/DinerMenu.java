@@ -1,4 +1,4 @@
-package _09_iterator_and_composite.java_implementation;
+package _09_1_iterator.java_implementation;
 
 import java.util.Iterator;
 
@@ -53,5 +53,12 @@ public class DinerMenu implements Menu{
         return new DinerMenuIterator(menuItems);
 
     }
+
+    @Override
+    public String toString() {
+
+        return "---LUNCH---";
+
+    }    
 
 }

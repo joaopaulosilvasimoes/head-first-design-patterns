@@ -41,4 +41,11 @@ public class CafeMenu implements Menu{
 
     }
 
+    @Override
+    public String toString() {
+
+        return "---BREAKFAST---";
+
+    }
+
 }

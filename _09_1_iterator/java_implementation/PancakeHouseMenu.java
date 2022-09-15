@@ -44,4 +44,11 @@ public class PancakeHouseMenu implements Menu {
 
     }    
 
+    @Override
+    public String toString() {
+
+        return "---BREAKFAST---";
+
+    }
+
 }
