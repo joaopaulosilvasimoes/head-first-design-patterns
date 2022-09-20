@@ -1,4 +1,4 @@
-package _09_iterator_and_composite.self_implementation;
+package _09_1_iterator.self_implementation;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
