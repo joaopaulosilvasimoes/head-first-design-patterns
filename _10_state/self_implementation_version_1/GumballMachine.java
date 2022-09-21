@@ -101,9 +101,9 @@ public class GumballMachine {
         else
         if (state == GumballMachineStateEnum.HAS_QUARTER) {
 
-            System.out.println("You turned...");
             state = GumballMachineStateEnum.SOLD;
             dispense();
+            System.out.println("You turned...");
 
         }        
 
@@ -151,6 +151,7 @@ public class GumballMachine {
 
     }
 
+    // Aux methods
     @Override
     public String toString() {
 
