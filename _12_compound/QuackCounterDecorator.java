@@ -28,12 +28,14 @@ public class QuackCounterDecorator implements Quackable {
     @Override
     public void registerObserver(QuackObserver quackObserver) {
 
-        
+        duck.registerObserver(quackObserver);
+
     }
 
     @Override
     public void notifyObservers() {
 
+        duck.notifyObservers();
         
     }
     

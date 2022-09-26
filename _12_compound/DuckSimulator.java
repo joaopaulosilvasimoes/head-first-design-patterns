@@ -49,9 +49,6 @@ public class DuckSimulator {
         // Composite
         DuckFlockComposite flockOfMallardsDucks = new DuckFlockComposite();
 
-        // Observer
-        flockOfMallardsDucks.registerObserver(quackologist);    
-
         flockOfMallardsDucks.add(mallardDuck1);
         flockOfMallardsDucks.add(mallardDuck2);
         flockOfMallardsDucks.add(mallardDuck3);
@@ -64,6 +61,9 @@ public class DuckSimulator {
         simulate(duckCall);
         simulate(rubberDuck);
         simulate(gooseDuck);
+
+        // Observer
+        flockOfMallardsDucks.registerObserver(quackologist);    
 
         System.out.println("\nDuck Simulator: Whole Flock Simulation\n");
       
